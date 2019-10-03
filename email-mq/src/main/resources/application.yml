@@ -1,0 +1,15 @@
+server:
+  port: 8001
+
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: "xxxx@gmail.com"
+    password: "xxxxxxx"
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
