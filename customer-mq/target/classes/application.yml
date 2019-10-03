@@ -1,0 +1,9 @@
+server:
+  port: 8000
+  servlet:
+    contextPath: /api
+
+spring:
+  rabbitmq:
+    host: 10.138.35.153
+    port: 9098
